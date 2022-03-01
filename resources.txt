@@ -1,0 +1,6 @@
+Website building tutorial (video): https://www.youtube.com/watch?v=Oa9LTDR9ugU
+Basic CSS hacks: https://www.webdesignerdepot.com/2016/10/20-essential-css-tricks-every-designer-should-know/
+Basic CSS properties table: http://web.simmons.edu/~grabiner/comm244/weekthree/css-basic-properties.html
+Header/footer tutorial using php (video): https://www.youtube.com/watch?v=shgr0ji71qI
+Header/footer tutorial using jquery (video): https://www.youtube.com/watch?v=m_RInqNGwmo
+Header/footer tutorial (try first): https://www.uvm.edu/~bnelson/computer/javascript/pageheadersandfooters.html
