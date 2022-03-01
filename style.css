@@ -28,6 +28,20 @@ nav ul li {
   vertical-align: center;
 }
 
+/*BODY STYLES*/
 body {
   margin: 0px 0px 0px;
+}
+.bodyContent {
+  margin: 3%;
+}
+.mainText {
+  width: 65%;
+  display: inline-block;
+  margin-right: 3%;
+}
+.sideBarText {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
 }
