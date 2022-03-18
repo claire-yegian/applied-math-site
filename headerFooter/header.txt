@@ -1,1 +1,1 @@
-document.write('<div class="container"><div class="header"><img src="/images/GUlogo.png" width="5%" alt="Gonzaga University Logo"/><nav class="headerNav"><ul><li><a href="homePage.html">HOME</a></li></ul></nav></div></div>')
+document.write('<div class="container"><div class="header"><img src="./images/GUlogo.png" width="5%" alt="Gonzaga University Logo"/><nav class="headerNav"><ul><li><a href="homePage.html">HOME</a></li></ul></nav></div></div>')
