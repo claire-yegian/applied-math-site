@@ -1,0 +1,19 @@
+/*CONCENTRATION PAGES STYLES*/
+.bodyContent {
+  margin: 3%;
+}
+.mainText {
+  width: 65%;
+  display: inline-block;
+  margin-right: 3%;
+}
+.sideBarText {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+#profile {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
