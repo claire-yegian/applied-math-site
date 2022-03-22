@@ -13,12 +13,41 @@
   align-items: center;
 }
 .col {
-  flex-basis: 50%;
+  flex-basis: 40%;
+  text-align: center;
+}
+.col2 {
+  flex-basis: 60%;
+  align-items: center;
 }
 .col h1,
 p {
   color: white;
 }
 .bodyContent {
-  margin: 10%;
+  margin: 3%;
+}
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+.concentration {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(./images/venus.jpeg);
+  background-position: center;
+  background-size: cover;
 }
