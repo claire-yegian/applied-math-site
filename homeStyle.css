@@ -47,7 +47,32 @@ button {
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px 15px;
-  background-image: url(./images/venus.jpeg);
   background-position: center;
   background-size: cover;
+  transition: transform 0.5s;
+}
+.actSci {
+  background-image: url(./images/venus.jpeg);
+}
+.bio {
+  background-image: url(./images/mars.jpeg);
+}
+.bioChem {
+  background-image: url(./images/mercury.jpeg);
+}
+.chem {
+  background-image: url(./images/uranus.jpeg);
+}
+.compSci {
+  background-image: url(./images/earth.jpeg);
+}
+.econ {
+  background-image: url(./images/neptune.jpeg);
+}
+.concentration h4 {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+.concentration:hover {
+  transform: translateY(-10px);
 }
