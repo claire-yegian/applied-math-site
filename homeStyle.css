@@ -1,13 +1,16 @@
 /*HOME PAGE STYLES*/
+* {
+  color: white;
+}
 .homeBackground {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./images/campusBackground.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(./images/backgroundImg.jpg);
   background-position: center;
   background-size: cover;
 }
-.row {
+/* .row {
   display: flex;
   height: 88%;
   align-items: center;
@@ -23,11 +26,16 @@
 .col h1,
 p {
   color: white;
+} */
+.row {
+  text-align: center;
+  padding: 40px;
+  text-shadow: 2px 2px rgb(77, 75, 75);
 }
 .bodyContent {
   margin: 3%;
 }
-button {
+.infoButton {
   width: 180px;
   color: #000;
   font-size: 12px;
@@ -39,9 +47,9 @@ button {
   margin-top: 30px;
 }
 .concentration {
-  width: 200px;
-  height: 230px;
-  display: inline-block;
+  width: 270px;
+  height: 350px;
+  display: inline-table;
   border-radius: 10px;
   padding: 15px 25px;
   box-sizing: border-box;
@@ -69,10 +77,25 @@ button {
 .econ {
   background-image: url(./images/neptune.jpeg);
 }
+.physics {
+  background-image: url(./images/saturn.webp);
+}
+.contact {
+  background-image: url(./images/campusBackground.jpeg);
+}
 .concentration h4 {
   color: #fff;
   text-shadow: 2px 2px #000;
 }
 .concentration:hover {
   transform: translateY(-10px);
+}
+.navBar {
+  background-color: #093055;
+  padding: 5px;
+  margin: 0;
+  border: 20px;
+}
+.addInfo {
+  color: #04203e;
 }
