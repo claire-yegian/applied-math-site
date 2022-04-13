@@ -2,6 +2,13 @@
 .bodyContent {
   margin: 3%;
 }
+body {
+  width: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 250, 250, 0.3)),
+    url(./images/concentrationBackground.jpg);
+  background-position: center center;
+  background-size: cover;
+}
 .mainText {
   width: 65%;
   display: inline-block;
@@ -17,8 +24,21 @@
   display: block;
   text-align: center;
 }
-.bioImg {
+.headerImg {
   object-fit: cover;
+  background-image: url(./images/biologyStockPhoto.jpeg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border: 0;
+}
+.headerImg h1 {
+  color: white;
+  font-weight: 100;
+  position: absolute;
+  padding: 4% 3%;
+  display: flex;
 }
 .row {
   display: flex;

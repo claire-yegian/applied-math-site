@@ -18,7 +18,6 @@ body {
 /*HEADER AND FOOTER SYTLES*/
 .container {
   width: 100%;
-  /*height: 100vh;*/
   box-sizing: border-box;
   background-color: #04203e;
   padding: 0.5% 3% 0.5% 3%;
@@ -61,4 +60,10 @@ hr {
 .navBar a,
 .navBar a:hover {
   color: white;
+}
+.links p {
+  color: white;
+}
+.links a:hover {
+  color: #97cbeb;
 }
