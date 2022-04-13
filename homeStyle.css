@@ -10,18 +10,6 @@ body {
   background-position: center center;
   background-size: cover;
 }
-.tagLine {
-  display: flex;
-}
-.line {
-  display: flex;
-  flex-grow: 1;
-  height: 1px;
-  width: 100%;
-  align-self: center;
-  margin: 0 20px;
-  background-color: grey;
-}
 .row {
   text-align: center;
   margin: 0% 8% 4% 8%;
@@ -77,11 +65,27 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(./images/mercury.jpeg);
 }
+.enviro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/uranus.jpeg);
+}
 .physics {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(./images/saturn.webp);
 }
-.minor {
+.stats {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/mars.jpeg);
+}
+.noConcen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/earth.jpeg);
+}
+.minorAM {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/neptune.jpeg);
+}
+.minorS {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(./images/moon.jpeg);
 }
