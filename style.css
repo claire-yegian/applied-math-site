@@ -2,13 +2,17 @@
 * {
   /* margin: 0;
   padding: 0; */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, "Arial Narrow", sans-serif;
 }
 a {
   text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
 }
 body {
-  margin: 0px 0px 0px;
+  margin: 0px;
 }
 
 /*HEADER AND FOOTER SYTLES*/
@@ -43,4 +47,18 @@ nav ul li a {
 .apMathLogo {
   align-self: right;
   vertical-align: center;
+}
+.navBar {
+  background-color: #093055;
+  padding: 5px 30px;
+  border: 20px;
+}
+hr {
+  margin: 0;
+  border: 1px solid #404040;
+}
+.navBar p,
+.navBar a,
+.navBar a:hover {
+  color: white;
 }

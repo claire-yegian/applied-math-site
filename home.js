@@ -22,3 +22,15 @@ let econ = document.querySelector(".econ");
 econ.addEventListener("click", () => {
     window.location = "./economics.html";
 })
+let physics = document.querySelector(".physics");
+physics.addEventListener("click", () => {
+    window.location = "./physics.html";
+})
+let minor = document.querySelector(".minor");
+minor.addEventListener("click", () => {
+    window.location = "./minor.html";
+})
+let contact = document.querySelector(".infoButton");
+contact.addEventListener("click", () => {
+    window.location = "https://www.gonzaga.edu/academics/faculty-listing/detail/mckenzie";
+})

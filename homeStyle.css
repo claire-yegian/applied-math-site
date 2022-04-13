@@ -2,86 +2,88 @@
 * {
   color: white;
 }
-.homeBackground {
+body {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(./images/backgroundImg.jpg);
-  background-position: center;
+    url(./images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+  background-position: center center;
   background-size: cover;
 }
-/* .row {
+.tagLine {
   display: flex;
-  height: 88%;
-  align-items: center;
 }
-.col {
-  flex-basis: 40%;
-  text-align: center;
+.line {
+  display: flex;
+  flex-grow: 1;
+  height: 1px;
+  width: 100%;
+  align-self: center;
+  margin: 0 20px;
+  background-color: grey;
 }
-.col2 {
-  flex-basis: 60%;
-  align-items: center;
-}
-.col h1,
-p {
-  color: white;
-} */
 .row {
   text-align: center;
-  padding: 40px;
-  text-shadow: 2px 2px rgb(77, 75, 75);
+  margin: 0% 8% 4% 8%;
 }
 .bodyContent {
-  margin: 3%;
+  margin: 4%;
 }
 .infoButton {
-  width: 180px;
+  width: 120px;
   color: #000;
   font-size: 12px;
   padding: 12px 0;
-  background: #fff;
+  background: rgb(179, 179, 179);
   border: 0;
   border-radius: 20px;
   outline: none;
   margin-top: 30px;
 }
 .concentration {
-  width: 270px;
+  width: 20%;
   height: 350px;
   display: inline-table;
   border-radius: 10px;
   padding: 15px 25px;
   box-sizing: border-box;
   cursor: pointer;
-  margin: 10px 15px;
+  margin: 1% 2.25%;
   background-position: center;
   background-size: cover;
   transition: transform 0.5s;
 }
 .actSci {
-  background-image: url(./images/venus.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/venus.jpeg);
 }
 .bio {
-  background-image: url(./images/mars.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/mars.jpeg);
 }
 .bioChem {
-  background-image: url(./images/mercury.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/neptune.jpeg);
 }
 .chem {
-  background-image: url(./images/uranus.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/uranus.jpeg);
 }
 .compSci {
-  background-image: url(./images/earth.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/earth.jpeg);
 }
 .econ {
-  background-image: url(./images/neptune.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/mercury.jpeg);
 }
 .physics {
-  background-image: url(./images/saturn.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/saturn.webp);
 }
-.contact {
-  background-image: url(./images/campusBackground.jpeg);
+.minor {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/moon.jpeg);
 }
 .concentration h4 {
   color: #fff;
@@ -89,12 +91,6 @@ p {
 }
 .concentration:hover {
   transform: translateY(-10px);
-}
-.navBar {
-  background-color: #093055;
-  padding: 5px;
-  margin: 0;
-  border: 20px;
 }
 .addInfo {
   color: #04203e;
