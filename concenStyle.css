@@ -16,14 +16,31 @@ body {
   margin-top: 2%;
 }
 .sideBarText {
-  width: 30%;
+  width: 28%;
   display: inline-block;
   vertical-align: top;
+  background-color: white;
+  padding: 1%;
+  box-shadow: 0 0 10px #c7c8ca;
+  margin: 2% 0%;
+}
+#sideBarSpace {
+  height: 10px;
+}
+.sideBarText p {
+  background-color: #e9ebed;
+  box-shadow: 0 0 5px 5px #e9ebed;
 }
 #profile {
   margin: auto;
   display: block;
   text-align: center;
+}
+#profileImg {
+  margin: auto;
+  display: block;
+  border: thick double #093055;
+  margin-bottom: 2%;
 }
 .headerImg {
   object-fit: cover;
